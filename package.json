@@ -1,0 +1,20 @@
+{
+  "name": "erc20-token",
+  "version": "1.0.0",
+  "description": "This project is an educational implementation of the ERC-20 token standard using Solidity. It demonstrates best practices for token creation, security, and deployment on Ethereum-compatible blockchains.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
