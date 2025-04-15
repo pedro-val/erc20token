@@ -31,10 +31,12 @@ cd erc20-token
 2. Install dependencies:
 ```bash
 npm install
+```
 
 3. Compile the contracts:
 ```bash
 npx hardhat compile
+```
 
 ## Project Structure
 ```plaintext
@@ -58,20 +60,24 @@ To deploy the token to a local Hardhat network:
 
 ```bash
 npx hardhat run scripts/deploy.js
+```
 
 To deploy to a testnet (e.g., Goerli):
 
 ```bash
 npx hardhat run scripts/deploy.js --network goerli
+```
 
 ### Running Tests
 ```bash
 npx hardhat test
+```
 
 To generate a test coverage report:
 
 ```bash
 npx hardhat coverage
+```
 
 ## Token Functionality
 The token implements the following standard ERC-20 functions:
@@ -103,6 +109,7 @@ Start a local Hardhat node:
 
 ```bash
 npx hardhat node
+```
 
 In a separate terminal, deploy the contracts to the local network:
 
